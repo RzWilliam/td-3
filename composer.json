@@ -1,0 +1,27 @@
+{
+    "name": "rzwilliam/td3",
+    "description": "Yu gi oh monster cards scrapper",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Rzwilliam\\Td3\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "RzWilliam",
+            "email": "williamrodriguez0621@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">= 8.0",
+        "symfony/http-client": "^6.3",
+        "ext-dom": "*",
+        "ext-libxml": "*"
+    },
+    "require-dev": {
+        "phpstan/phpstan": "^1.10",
+        "phpunit/phpunit": "^9.6||^10.2"
+    }
+}
