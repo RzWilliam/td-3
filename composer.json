@@ -16,7 +16,7 @@
     ],
     "require": {
         "php": ">= 8.0",
-        "symfony/http-client": "^6.3",
+        "symfony/http-client": "^6.0.20",
         "ext-dom": "*",
         "ext-libxml": "*"
     },
